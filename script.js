@@ -9,7 +9,7 @@
   // // console.log(wordCount);
   // wordCount.innerText = words;
 
-	const evaluatedText = document.getElementById('evaluatedText');
+const evaluatedText = document.getElementById('evaluatedText');
 const wordCount = document.getElementById('wordCount');
 
 evaluatedText.addEventListener('input', () => {
