@@ -1,7 +1,7 @@
 //your code here
 
 // let words= document.getElementById('wordCount');
-function count(self) {
+function count() {
   // let text = document.getElementById("evaluatedText").value.trim();
   // let spaces = self.value.match(/\S+/g);
   // let words = spaces ? spaces.length : 0;
