@@ -10,9 +10,18 @@ function count() {
   // // console.log(wordCount);
   // wordCount.innerText = words;
 
-	let text = document.getElementById("evaluatedText").value.trim();
-			let wordCount = text.split(/\s+/).length;
-			document.getElementById("wordCount").innerHTML = wordCount;
+	const evaluatedText = document.getElementById('evaluatedText');
+const wordCount = document.getElementById('wordCount');
+
+evaluatedText.addEventListener('input', () => {
+  const text = evaluatedText.value.trim();
+  if (text === '') {
+    wordCount.textContent = '0';
+  } else {
+    const count = text.split(/\s+/).length;
+    wordCount.textContent = count;
+  }
+});
 // }
 	
 	
