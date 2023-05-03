@@ -26,4 +26,3 @@ evaluatedText.addEventListener('input', () => {
 	
 	
 	
-}
